@@ -12,9 +12,26 @@ int main(){
     int npt1, npt2;
 
     printf("Insira a inical do Estado da carta 1: ");
-    scanf("%s",a);
+    scanf("%f",a);
 
-   
+    printf("Insira o código da carta 1: ");
+    scanf("%s",a01);
 
+    printf("Insira o nome da Cidade da carta 1: ");
+    scanf("%s",ncidade1);
+
+    printf("Insira a população da carta 1: ");
+    scanf("%d",popu1);
+
+    printf("Insira a área da carta 1: ");
+    scanf("%f",area1);
+
+    printf("Insira o PIB da carta 1: ");
+    scanf("%f",pib1);
+
+    printf("Insira o número de pontos turísticos da carta 1: ");
+    scanf("%d",npt1);
+
+    return 0;
 
 }
